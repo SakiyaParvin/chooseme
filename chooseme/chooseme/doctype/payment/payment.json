@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-13 16:27:06.610291",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student",
+  "room_name",
+  "column_break_5",
+  "section_break_13",
+  "bill",
+  "fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_name",
+   "fieldtype": "Link",
+   "label": "Room name",
+   "options": "Room"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Student"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bill",
+   "fieldtype": "Table",
+   "label": "Bill",
+   "options": "Cash"
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Table",
+   "label": "Fee",
+   "options": "Fee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-18 12:29:58.522013",
+ "modified_by": "Administrator",
+ "module": "chooseme",
+ "name": "Payment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

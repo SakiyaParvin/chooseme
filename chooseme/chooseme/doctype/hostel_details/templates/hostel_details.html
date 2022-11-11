@@ -1,0 +1,41 @@
+
+
+<!-- this is a sample default web page template -->
+
+{% block page_content %}
+
+<div class="main" style="background-color:#e5e5e5;">
+    <div class="center">
+		<h1>{{ doc.hostel_name }}</h1>
+	</div>
+    <div class="rightNav">
+        <button class="btn1">Registration</button>
+        <button class="btn2">Search</button>
+    </div>
+    <div class="main" style="background-color:#e5e5e5;">
+        <img src="{{ image}}" style="width:100%;">
+    </div>
+    <div class="main">
+        <p class="main"> {{ description }}</p>
+        <div>
+            <p class="main"> {{ address }}</p>
+        </div>
+
+        <div class="right">
+            <div class="right"> <h2>email:</h2> 
+                <strong>{{ email }}</strong></div>
+            <div class="right"> <h2>contact:</h2> 
+                <strong>{{ contact }}</strong></div>
+        </div>
+        <div class="left">
+            <div class="right">
+                <h2>opening time:</h2> 
+                <strong>{{ opening_time }}</strong></div>
+            <div class="right">
+                <h2>closing time:</h2> 
+                <strong>{{ closing_time }}</strong></div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

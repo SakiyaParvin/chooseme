@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-18 12:03:07.557483",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "room_rent",
+  "mess_fee",
+  "additional",
+  "coution_deposit",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_rent",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Room rent"
+  },
+  {
+   "fieldname": "mess_fee",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Mess fee"
+  },
+  {
+   "fieldname": "additional",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Additional"
+  },
+  {
+   "fieldname": "coution_deposit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Coution deposit"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-18 18:03:46.411850",
+ "modified_by": "Administrator",
+ "module": "chooseme",
+ "name": "Fee",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

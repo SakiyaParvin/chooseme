@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:warden_name",
+ "creation": "2022-10-11 13:06:48.299426",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "warden_name_link",
+  "column_break_2",
+  "column_break_3",
+  "warden_name",
+  "qualification",
+  "address",
+  "contact",
+  "column_break_5",
+  "in_charge_name",
+  "in_charge_address",
+  "in_contact",
+  "column_break_9",
+  "duration_from",
+  "duration_now",
+  "section_break_12"
+ ],
+ "fields": [
+  {
+   "fieldname": "warden_name",
+   "fieldtype": "Data",
+   "label": "Warden name",
+   "unique": 1
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Int",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "in_charge_name",
+   "fieldtype": "Data",
+   "label": "In charge name"
+  },
+  {
+   "fieldname": "in_charge_address",
+   "fieldtype": "Data",
+   "label": "In charge address"
+  },
+  {
+   "fieldname": "in_contact",
+   "fieldtype": "Int",
+   "label": "IN contact"
+  },
+  {
+   "fieldname": "duration_from",
+   "fieldtype": "Date",
+   "label": "Duration from"
+  },
+  {
+   "fieldname": "duration_now",
+   "fieldtype": "Date",
+   "label": "Duration now"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "warden_name_link",
+   "fieldtype": "Link",
+   "label": "Select Warden",
+   "options": "Warden"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-12 22:59:59.375960",
+ "modified_by": "Administrator",
+ "module": "chooseme",
+ "name": "Warden",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
